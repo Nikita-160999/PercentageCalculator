@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <div id = "main">
+            
+            <div id ="left">
+                 <h1 style="color: white;">Result</h1>
+                 <div style="color: white;" class="result" id="result"></div>
+                 <h3>Percentage</h3>
+                 <div style="color: white;" class="percentage" id="percentage"></div>
+                 <h3>Grade</h3>
+                 <div style="color: white;" class="grade" id="grade"></div>
+                 <h3>Total</h3>
+                 <div style="color: white;" class="total" id="total"></div>
+            </div>
+
+            <div id ="right">
+                
+                <input type="tel" id="subject1" placeholder="Maths" min="0" max="100" required><br>
+                <input type="tel" id="subject2" placeholder="English" min="0" max="100" required><br>
+                <input type="tel" id="subject3" placeholder="Physics" min="0" max="100" required><br>
+                <input type="tel" id="subject4" placeholder="Chemistry" min="0" max="100" required><br>
+                <input type="tel" id="subject5" placeholder="Hindi" min="0" max="100" required><br>
+                <input type="tel" id="subject6" placeholder="Science" min="0" max="100" required><br>
+                <button type="tel" onclick="calculatePercentage()">Show Result</button>
+           
+                <div class="result" id="result"></div>
+            </div>
+           
+        </div>
+    </center>
+
+    <script src="script.js"></script>
+</body>
+</html>
